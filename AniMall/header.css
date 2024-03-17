@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+p1{
+  font-family: "Montserrat", sans-serif;
+  font: 1rem;
+  color: #ffffff;
+  font-size: calc(25px + 4vw);;
+}
+.header{
+    
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    
+  }
+  
+.menu{
+    margin-left: 2vw;
+    margin-right: 30px;
+    display: flex;
+    list-style: none;
+
+}
+.menu li{
+    margin-left: 2vw;
+    font-size: calc(15px + 1vw)
+}
+.menu li a{
+    font-family: "Montserrat";
+    color:#FFFFFF; text-decoration: none;
+    font-size: calc(10px + 1.5vw);
+}
+.menu li a:hover{
+    color: #ABABAB
+}
+.menu .icon .images{
+    margin-left: calc(5px + 0.5vw);
+
+    width: calc(14px + 1.4vw);
+
+}
+.menu .icon img:hover{
+    filter: blur(4px)
+}
+.footer{ 
+    background-color: #373737;
+}
+.footer_wrap{
+    padding: 30px;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.footer li{
+    margin-top: 1vw;
+    margin-left: 2vw;
+  
+    list-style-type: none;
+}
+.footer li p{
+    /* font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 20;
+    font-style: medium; */
+    color:#b4b4b4;
+   font-size: calc(2px + 1vw);
+    
+}
+.footer_wrap nav{
+    margin-right: 30px;
+}
+.footer .icon{
+    margin-left: 2vw;
+}
+.footer_wrap .images{
+    width: 4vw;
+    height: 4vw;
+}
+.footer_wrap .images:hover{
+background-color: #504e4e;
+}
+.footer_wrap nav p{
+    margin-left: 6vw;
+    margin-top: 1vw;
+    color: #b4b4b4;
+}
+
+/* body {
+    background: linear-gradient(-60deg, #00B0BB 18%, #81E1E7 18%, #81E1E7 70%,
+     #00B0BB 70%, #00B0BB 100%), linear-gradient(#EEEEEE, #EEEEEE);
+    background-position: 0 0, 0 0;
+    background-size: 100% 100%, 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+  } ,linear-gradient(90deg #ffffff00 0%, #ffffff00 80%, #00B0BB 80%, #00B0BB 100%),*/
+  body{
+    background:linear-gradient(-60deg, #ffffff00 0%, #ffffff00 18%, #00B0BB 18%, #00B0BB 70%, #ffffff00 70%, #ffffff00 100% ),white;
+    overflow: hidden; /*не убирать, убирает боковую полоску */
+      height: 100vh; 
+  }
